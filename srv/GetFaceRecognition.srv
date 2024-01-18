@@ -1,4 +1,7 @@
 bool visualization
 ---
+Header header
+# The pose of the middle point of face box in the camera frame expressed as a transform.
+geometry_msgs/TransformStamped face_transform
 perception_interfaces/FaceInfo[] face_info
 perception_interfaces/FaceBox[] face_bbx
